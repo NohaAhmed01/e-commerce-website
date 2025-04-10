@@ -5,7 +5,7 @@ An interactive and responsive e-commerce platform developed using HTML, CSS, and
 ## 🚀 Demo
 
 <!-- Replace the link below with your live demo URL if available -->
-[Live Demo](#)
+[Live Demo](#https://my-ecommerce-site-noha.netlify.app/)
 
 ## 📦 Features
 
