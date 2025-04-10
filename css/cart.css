@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(237, 236, 236);
+}
+#ChkOUT{
+    display: flex;
+    justify-content: space-evenly;
+}
+.col-9{
+    width: 75%;
+}
+section .itemsSelected {
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section .card {
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+section .card img {
+    margin-right: 50px;
+    width: 20%;
+    height: 20vh;
+
+}
+
+.fs-smaller {
+    font-size: smaller;
+}
+
+section .information {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 10px;
+}
+
+section .information .details {
+    margin-right: 10px;
+}
+
+.deleteItem{
+  text-decoration: none;
+  margin-left: 20px;
+}
+aside{
+    margin-right: 20px;
+}
+aside .CheckOutPrice{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    height: 30vh;
+    margin-bottom: 10px;
+}
+
+aside .checkOutBtn{
+    width: 100%;
+    background: linear-gradient(to bottom, #78d630, #5fb922);
+    color: white;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2),
+        inset 0 4px 4px rgba(255, 255, 255, 0.3);
+    padding: 10px;
+}
+aside .checkOutBtn:active{
+    background: linear-gradient(to bottom, #61ad27, #4b941b);
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    *{
+        font-size: 17px;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+ 
+    *{
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:768px) {
+    *{
+        font-size: 13px;
+    }
+    section .card img {
+        width: 15%;
+        height: 15vh;
+    
+    }
+}
+@media screen and (max-width:600px) {
+    *{
+        font-size: 10px;
+    }
+    section .card img {
+        width: 10%;
+        height: 8vh;
+    
+    }
+  
+}
