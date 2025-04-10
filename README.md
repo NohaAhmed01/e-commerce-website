@@ -48,4 +48,4 @@ This project is licensed under the MIT License.
 ## 📬 Contact
 - Email: noha.ahmed.mohamed01@gmail.com
 
-- LinkedIn: Noha Ahmed Mohamed
+- LinkedIn: [Noha Ahmed Mohamed](https://www.linkedin.com/in/nohaahmed88/)
